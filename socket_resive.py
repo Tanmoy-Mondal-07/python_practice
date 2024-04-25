@@ -1,8 +1,8 @@
 
 # import socket
 
-# HOST = '192.168.86.122' # Standard loopback interface address (localhost)
-# PORT = 6546 # Port to listen on (non-privileged ports are > 1023)
+# HOST = '192.168.86.122' 
+# PORT = 6546
 
 # with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 #     s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -23,8 +23,8 @@
 
 import socket
 
-HOST = '192.168.86.122'  # Standard loopback interface address (localhost)
-PORT = 6546  # Port to listen on (non-privileged ports are > 1023)
+HOST = '192.168.86.122'  
+PORT = 6546  
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
